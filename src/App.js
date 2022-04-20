@@ -1,6 +1,11 @@
+import { Game } from "./components/Game";
+
+
 function App() {
   return (
-    <div>Jogo da velha</div>
+    <div>
+      <Game />
+    </div>
   );
 }
 
